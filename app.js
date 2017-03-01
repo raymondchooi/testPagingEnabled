@@ -8,7 +8,7 @@ export default class App extends Component {
         <StatusBar hidden={ true }/>
 
         <ScrollView
-          pagingEnabled={ true }>
+          pagingEnabled={ false }>
           <View style={[ styles.screenSize, styles.pageOne ]}/>
           <View style={[ styles.screenSize, styles.pageTwo ]}/>
           <View style={[ styles.screenSize, styles.pageThree ]}/>
